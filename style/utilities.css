@@ -1,0 +1,29 @@
+/* flex classes started */
+
+.d-flex{display: flex;}
+.justify-c{justify-content: center;}
+.justify-a{justify-content: space-around;}
+.justify-e{justify-content: space-evenly;}
+.justify-b{justify-content: space-between;}
+.align-c{align-content: center;}
+.gap{gap: 20px;}
+.wrap{flex-wrap: wrap;}
+
+/* flex classes ended */
+
+/* margin classes started */
+
+m-1{margin: 10px;}
+m-2{margin: 20px;}
+m-3{margin: 30px;}
+m-4{margin: 40px;}
+m-5{margin: 50px;}
+
+mt-1{margin-top: 10px;}
+mt-2{margin-top: 20px;}
+mt-3{margin-top: 30px;}
+mt-4{margin-top: 40px;}
+mt-5{margin-top: 50px;}
+
+/* margin classes ended */
+

@@ -1,0 +1,49 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: #ffffff;}
+html{font-size: 62.5%;}
+body{background-color: #000000;
+color: #ffffff;}
+#header.logo{width: 165px;}
+.unline{text-decoration: none;}
+.nav-items{font-size: 2rem;}
+.margin-r{margin-right: 20px;}
+
+/* franchise btn */
+
+#franchise-btn{border: 1px solid #ffffff;
+padding: 15px 20px;
+background-color: transparent;
+border-radius: 25px;}
+
+/* order btn */
+
+#order-btn{border: 0;
+padding: 15px 20px;
+background-color: #ed1c24;
+border-radius: 25px;
+margin-left: 10px;}
+.pointer{cursor: pointer;}
+
+#carousel{width:1300px;}
+
+p{font-size: 5rem;
+text-align: center;}
+span{font-weight: 800;
+font-size:7rem ;}
+#size-s{font-size: 2rem;
+color:silver;}
+
+
+.white{background-color: #ffffff;}
+
+#order-btn2{border: 1px solid #ffffff;
+background-color: #000000;
+margin: 24px 99.5px 0px;
+border-radius: 25px;
+padding: 20px;
+}
+
+.d-block{display: block;}
+
