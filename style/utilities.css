@@ -8,7 +8,7 @@
 .align-c{align-content: center;}
 .gap{gap: 20px;}
 .wrap{flex-wrap: wrap;}
-
+.flex-b{flex-basis: 50%;}
 
 /* flex classes ended */
 
