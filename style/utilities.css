@@ -9,7 +9,7 @@
 .gap{gap: 20px;}
 .wrap{flex-wrap: wrap;}
 .flex-b{flex-basis: 50%;}
-
+.fit{float: none;}
 
 /* flex classes ended */
 

@@ -26,7 +26,7 @@ border-radius: 25px;
 margin-left: 10px;}
 .pointer{cursor: pointer;}
 
-#carousel{width:1300px;}
+#carousel{width:1275px;}
 
 p{font-size: 5rem;
 text-align: center;}
@@ -234,6 +234,33 @@ font-weight: 200;}
     margin-right:100px;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;}
+
+
+.feed-img{width: 230px;
+margin-left: 20px;}   
+
+
+.img-r{margin-right: 40px;}
+
+.logo-2{width: 150px;
+margin-top: 50px;
+margin-left: 100px;}
+
+
+.end-font{font-size: 1.5rem;
+text-align: left;
+margin-left: 100px;}
+
+
+.sub-heading{font-size: 1.6rem;
+font-weight: 700;
+text-align: left;
+margin-left: 100px;}
+
+.ml-2{margin-left: 40px;
+text-align: left;}
+
+
     
 
 
