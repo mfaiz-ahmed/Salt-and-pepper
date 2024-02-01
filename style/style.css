@@ -260,10 +260,75 @@ margin-left: 100px;}
 .ml-2{margin-left: 40px;
 text-align: left;}
 
+txt-l{text-align: left;}
+
+
+
+.terms-font{font-size: 1.6rem;
+text-align: left;
+margin-left: -50px;
+margin-right: 20px;}
+
+.terms-font2{font-size: 1.5rem;
+margin-left: 90px;}
+
+
+.mr-2{margin-right: 40px;}
+
+.link-font{font-size: 1.5rem;
+margin-left: 50px;}
+
+.fa-facebook {
+    background: #ed1c24;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  .fa-instagram {
+    background: #ed1c24;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  .fa-twitter {
+    background: #ed1c24;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+
+  .margin-end{margin-right: 250px;}
+
+
+  .end-l{margin-left: 100px;}
+
+
+  .link-mar{margin-left: -150px;
+margin-top: 50px;}
+  
+.contact-mar{margin-right: 150px;}
+
+.follow{margin-right: 100px;}
 
     
-
-
 
 
 
