@@ -380,6 +380,37 @@ margin-left: 20px;}
 
 
 
+.red-book{border: 1px solid #525252;
+width: 600px;
+height: 600px;
+margin-left: 70px;
+margin-top: 50px;}
+
+
+
+.purple-book{border: 1px solid #525252;
+width: 600px;
+height: 600px;
+margin-right: 70px;
+margin-top: 50px;}
+
+
+
+.book-txt{text-align: center;
+font-size: 1.6rem;
+color: #FFFFFF;
+font-weight: 200;}
+
+
+.book-txt2{text-align: center;
+font-size: 1.4rem;
+font-weight: 100;}
+
+
+.footer{background-color: #0f0f0f;}
+
+
+
 
 
 
