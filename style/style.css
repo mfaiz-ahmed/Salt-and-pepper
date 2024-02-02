@@ -330,8 +330,53 @@ margin-top: 50px;}
 
 
 
+.box-bg{background-color: #0f0f0f;
+width:400px;
+height: 475px;}
 
+
+.mr-1{margin-right: 3px;}
+
+.img-6{width: 400px;}
+
+
+
+.ml-1{margin-left: 20px;}
+
+
+.box-txt{font-size: 1.6rem;
+text-align: center;
+margin-left: 10px;
+margin-right: 10px;}
+
+
+
+
+.lst-box{margin-left: -195px;}
+
+
+.lst-box2{align-content: flex-start;
+margin-right: 200px;
+margin-left: -200px;}
+
+
+
+.guj{font-size: 1.6rem;
+  text-align: left;
+  margin-left:50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;}
+
+
+  .img-guj{width: 600px;
+  margin-left: 50px;}
     
+
+
+  .guj-txt{font-size: 1.4rem;
+  text-align: left;
+align-content: flex-start;
+margin-left: 20px;}
 
 
 
