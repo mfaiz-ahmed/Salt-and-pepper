@@ -19,7 +19,7 @@ border-radius: 25px;}
 
 /* order btn */
 
-#order-btn{border: 0;
+.order-btn{border: 0;
 padding: 15px 20px;
 background-color: #ed1c24;
 border-radius: 25px;

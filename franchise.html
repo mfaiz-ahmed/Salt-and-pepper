@@ -4,8 +4,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Get a Franchis</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/utilities.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <div class="conatiner">
+        <header class="d-flex justify-a align-c mt-1 wrap">
+       <div>
+          <img style="width: 165px;" id="header-logo" src="./Assets/logo.webp" alt="logo">
+       </div>
+       <nav class="d-flex align-c gap wrap">
+       <div>
+       <a href="./index.html" class="unline white-3 nav-items margin-r">Home</a>
+       <a href="./about.html" class="unline white-3 nav-items margin-r">About Us</a>
+       <a href="./Publication.html" class="unline white-3 nav-items margin-r">Publications</a>
+       <a href="./feedback.html" class="unline white-3 nav-items margin-r">Feedback</a>
+       <a href="./franchise.html"> <button id="franchise-btn"  class="pointer white-3">Get a Franchise</button></a> 
+       <button class="order-btn pointer white-3">Order Online</button>
+   </nav>
+       </div>
+ </header>
+ <br /><br /><br /><br /><br /><br /><br />
+ <main>
+    <h3 class="header">Get a Franchise</h3>
+    <br /><br /><br /><br />
+    <div class="d-flex">
+        <div>
+            <label for="name" class="color franchise franchise-m">Name</label><br /><br />
+            <input type="text" id="name" class="input-box franchise-m">
+        <br /><br /><br />
+          <label for="number" class="color franchise franchise-m">Phone Number</label><br /><br />
+            <input type="number" id="number" class="input-box franchise-m">
+      <br /><br /><br />
+       <label for="city" class="color franchise franchise-m">City</label><br /><br />
+            <input type="text" id="city" class="input-box franchise-m">
+         <br /><br /><br />
+         <label for="country" class="color franchise franchise-m">Country</label><br /><br />
+            <input type="text" id="country" class="input-box franchise-m">
+        </div>
+        <div>
+            <label for="email" class="color franchise franchise-m">Email</label><br /><br />
+            <input type="email" id="email" class="input-box franchise-m">
+        <br /><br /><br />
+          <label for="number" class="color franchise franchise-m">Mobile Number</label><br /><br />
+            <input type="number" id="number" class="input-box franchise-m">
+      <br /><br /><br />
+       <label for="province" class="color franchise franchise-m">Province</label><br /><br />
+            <input type="text" id="province" class="input-box franchise-m">
+         <br /><br /><br />
+         <label for="brands" class="color franchise franchise-m">Brands</label><br /><br />
+            <select name="brands" id="brands" class="dropdown">
+                <option value="Which brand are you interested in">WhichWhich brand are you interested in</option>
+                <option value="restaurant">Salt'n Pepper Restuarant</option>
+                <option value="village">Salt'n Pepper Village</option>
+                <option value="Express">Salt'n Pepper Express</option>
+            </select>
+        </div>
+     </div>
+     <br /><br /><br />
+     <button class="order-btn pointer white-3 submit">Submit</button>
+ </main>
+ <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+ <footer class="footer">
+    <div class="d-flex justify-e ">
+        <div>
+        <img  class="logo-2" src="./Assets/logo.webp" alt="">
+        <br /><br /><br />
+        <p class="end-font color margin-end ">The Salt’n Pepper Restaurants are an example of gracious dinning, outstanding service, extraordinary classic and contemporary cuisine. The restaurants have become the ultimate dinning destinations in Lahore. From family occasions to business dinner and moments of the heart, this place is where unforgettable memories are made.</p>
+        <br /><br /><br />
+        <a class="link-font color unline end-l " href="./conditions.html">Terms & conditions</a>
+    <a class="link-font color unline" href="./privacy.html">Privacy Policy</a>
+    </div>
+    <div>
+        <h5 class="end-font link-mar">Site Links</h5>
+        <br /><br />
+        <a class="unline color end-font link-mar" href="./index.html">Home</a>
+        <br /><br />
+        <a class="unline color end-font link-mar" href="./about.html">About Us</a>
+        <br /><br />
+        <a class="unline link-mar color end-font" href="./Publication.html">Publications</a>
+        <br /><br />
+        <a class="unline link-mar color end-font" href="./franchise.html">Get a Franchise </a>
+        <br /><br />
+        <a class="unline color link-mar end-font" href="./feedback.html">Feedback</a>
+    </div>
+    <div>
+        <h5 class="end-font contact-mar">Contact Us</h5>
+        <br /><br />
+        <p class="end-font color contact-mar">+92 42 358 509 31 (Head Office)</p>
+        <br /><br />
+        <p class="end-font color contact-mar">+92 42 358 509 30 (Head Office)</p>
+        <br /><br />
+        <p class="end-font color contact-mar">+92 42 111 100 678 (Delivery)</p>
+        <br /><br />
+        <p class="end-font color contact-mar">+92 03 111 444 610 (Delivery)</p>
+        <br /><br />
+        <p class="end-font color contact-mar">snpfood@brain.net.pk</p>
+        <br /><br />
+        <p class="end-font color contact-mar">23-Usman Block, New GardenTown, Lahore, Pakistan</p>
+    </div>
+    <div>
+        <h5 class="end-font follow">Follow Us</h5>
+        <br /><br />
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <br /><br /><br /><br />
+        <img src="./Assets/google-play.webp" alt="Google play">
+        <br /><br />
+        <img src="./Assets/app-store.webp" alt="App store">
+    </div>
+    </div>
+</footer>
     
 </body>
 </html>

@@ -31,3 +31,101 @@ mt-5{margin-top: 50px;}
 
 /* margin classes ended */
 
+
+
+/* star classes started */
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ed1c24;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #ed1c24;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #ed1c24;
+}
+
+
+.star-txt{font-size: 1.4rem;
+font-weight: 100;
+}
+
+.review-box{margin-left: 300px;}
+
+/* star classes ended */
+
+
+
+/* review classes */
+
+
+
+.review-input{text-align: center;
+font-size: 1.4rem;
+margin-left: 390px;}
+
+.input-box{width: 500px;
+height: 44px;
+align-content: center;
+padding: 6px 12px;
+border: 0;
+border-radius: 5px;}
+
+
+.required::after{content:"*";
+    font-size: 1.4rem;
+color: #ed1c24;}
+
+
+
+
+
+
+
+/* franchise classes */
+
+
+
+
+.franchise{text-align: left;
+font-size: 1.4rem;}
+
+.franchise-m{margin-left:70px;}
+
+
+.dropdown{width: 500px;
+height: 44px;
+padding: 6px 12px;
+border: 0;
+border-radius: 5px;
+margin-left: 70px;}
+
+
+.submit{margin-left: 70px;
+width: 150px;}

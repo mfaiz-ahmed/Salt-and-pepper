@@ -6,6 +6,8 @@
     <title>Feedback</title>
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/utilities.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="conatiner">
@@ -19,8 +21,8 @@
        <a href="./about.html" class="unline white-3 nav-items margin-r">About Us</a>
        <a href="./Publication.html" class="unline white-3 nav-items margin-r">Publications</a>
        <a href="./feedback.html" class="unline white-3 nav-items margin-r">Feedback</a>
-       <button id="franchise-btn" class="pointer white-3">Get a Franchise</button>
-       <button id="order-btn" class="pointer white-3">Order Online</button>
+       <a href="./franchise.html"> <button id="franchise-btn"  class="pointer white-3">Get a Franchise</button></a> 
+       <button class="order-btn pointer white-3">Order Online</button>
    </nav>
        </div>
  </header>
@@ -28,7 +30,139 @@
      <br /><br /><br /><br /><br />
      <main>
         <h3 class="header">Rate Your Experience</h3>
+        <br /><br /><br /><br />
+        <div class=>
+            <div class="rate review-box"> <p class="star-txt">Food Quality</p><br />
+            <input type="radio" id="star5" name="rate" value="5" />
+            <label for="star5" title="text">5 stars</label>
+            <input type="radio" id="star4" name="rate" value="4" />
+            <label for="star4" title="text">4 stars</label>
+            <input type="radio" id="star3" name="rate" value="3" />
+            <label for="star3" title="text">3 stars</label>
+            <input type="radio" id="star2" name="rate" value="2" />
+            <label for="star2" title="text">2 stars</label>
+            <input type="radio" id="star1" name="rate" value="1" />
+            <label for="star1" title="text">1 star</label>
+          </div>
+            <div class="rate"> <p class="star-txt">Food Quantity</p><br />
+            <input type="radio" id="star5" name="rate" value="5" />
+            <label for="star5" title="text">5 stars</label>
+            <input type="radio" id="star4" name="rate" value="4" />
+            <label for="star4" title="text">4 stars</label>
+            <input type="radio" id="star3" name="rate" value="3" />
+            <label for="star3" title="text">3 stars</label>
+            <input type="radio" id="star2" name="rate" value="2" />
+            <label for="star2" title="text">2 stars</label>
+            <input type="radio" id="star1" name="rate" value="1" />
+            <label for="star1" title="text">1 star</label>
+          </div>
+            <div class="rate"> <p class="star-txt">Ambiance</p><br />
+            <input type="radio" id="star5" name="rate" value="5" />
+            <label for="star5" title="text">5 stars</label>
+            <input type="radio" id="star4" name="rate" value="4" />
+            <label for="star4" title="text">4 stars</label>
+            <input type="radio" id="star3" name="rate" value="3" />
+            <label for="star3" title="text">3 stars</label>
+            <input type="radio" id="star2" name="rate" value="2" />
+            <label for="star2" title="text">2 stars</label>
+            <input type="radio" id="star1" name="rate" value="1" />
+            <label for="star1" title="text">1 star</label>
+          </div>
+            <div class="rate"> <p class="star-txt">Service</p><br />
+            <input type="radio" id="star5" name="rate" value="5" />
+            <label for="star5" title="text">5 stars</label>
+            <input type="radio" id="star4" name="rate" value="4" />
+            <label for="star4" title="text">4 stars</label>
+            <input type="radio" id="star3" name="rate" value="3" />
+            <label for="star3" title="text">3 stars</label>
+            <input type="radio" id="star2" name="rate" value="2" />
+            <label for="star2" title="text">2 stars</label>
+            <input type="radio" id="star1" name="rate" value="1" />
+            <label for="star1" title="text">1 star</label>
+          </div>
+        </div>
+        <br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <div>
+            <label class="review-input" for="title">Title</label><br /><br />
+           <div class="d-flex justify-c"> <input class="input-box" type="text" name="Title" id="title">
+        </div>
+        <br /><br />
+        <div>
+            <label class="review-input" for="comment">Comment</label><br /><br />
+           <div class="d-flex justify-c"> <input class="input-box" type="text" name="Comment" id="comment">
+        </div>
+        <br /><br />
+        <div>
+            <label class="review-input required" for="name">Full Name
+            </label><br /><br />
+           <div class="d-flex justify-c"> <input class="input-box" type="text" required name="name" id="name">
+        </div>
+        <br /><br />
+        <div>
+            <label class="review-input required" for="email">Email
+            </label><br /><br />
+           <div class="d-flex justify-c"> <input class="input-box" type="email" required name="email" id="email">
+        </div>
+        <br /><br />
+        <div>
+            <label class="review-input required" for="number">Phone Number</label><br /><br />
+           <div class="d-flex justify-c"> <input class="input-box" type="number" required name="number" id="number">
+        </div>
+        <br /><br / >
+        <button class="order-btn pointer white-3 review-input">POST FEEDBACK</button>
+        </div>
      </main>
-    
+     <br /><br /><br /><br />
+     <footer class="footer">
+        <div class="d-flex justify-e ">
+            <div>
+            <img  class="logo-2" src="./Assets/logo.webp" alt="">
+            <br /><br /><br />
+            <p class="end-font color margin-end ">The Salt’n Pepper Restaurants are an example of gracious dinning, outstanding service, extraordinary classic and contemporary cuisine. The restaurants have become the ultimate dinning destinations in Lahore. From family occasions to business dinner and moments of the heart, this place is where unforgettable memories are made.</p>
+            <br /><br /><br />
+            <a class="link-font color unline end-l " href="./conditions.html">Terms & conditions</a>
+        <a class="link-font color unline" href="./privacy.html">Privacy Policy</a>
+        </div>
+        <div>
+            <h5 class="end-font link-mar">Site Links</h5>
+            <br /><br />
+            <a class="unline color end-font link-mar" href="./index.html">Home</a>
+            <br /><br />
+            <a class="unline color end-font link-mar" href="./about.html">About Us</a>
+            <br /><br />
+            <a class="unline link-mar color end-font" href="./Publication.html">Publications</a>
+            <br /><br />
+            <a class="unline link-mar color end-font" href="./franchise.html">Get a Franchise </a>
+            <br /><br />
+            <a class="unline color link-mar end-font" href="./feedback.html">Feedback</a>
+        </div>
+        <div>
+            <h5 class="end-font contact-mar">Contact Us</h5>
+            <br /><br />
+            <p class="end-font color contact-mar">+92 42 358 509 31 (Head Office)</p>
+            <br /><br />
+            <p class="end-font color contact-mar">+92 42 358 509 30 (Head Office)</p>
+            <br /><br />
+            <p class="end-font color contact-mar">+92 42 111 100 678 (Delivery)</p>
+            <br /><br />
+            <p class="end-font color contact-mar">+92 03 111 444 610 (Delivery)</p>
+            <br /><br />
+            <p class="end-font color contact-mar">snpfood@brain.net.pk</p>
+            <br /><br />
+            <p class="end-font color contact-mar">23-Usman Block, New GardenTown, Lahore, Pakistan</p>
+        </div>
+        <div>
+            <h5 class="end-font follow">Follow Us</h5>
+            <br /><br />
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <br /><br /><br /><br />
+            <img src="./Assets/google-play.webp" alt="Google play">
+            <br /><br />
+            <img src="./Assets/app-store.webp" alt="App store">
+        </div>
+        </div>
+    </footer>
 </body>
 </html>
